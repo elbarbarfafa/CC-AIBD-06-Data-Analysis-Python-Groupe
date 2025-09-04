@@ -1,13 +1,9 @@
-import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mtick
 from matplotlib import ticker
-from scipy import stats
-from scipy.stats import levene, bartlett, f_oneway, kruskal
-from matplotlib.patches import Rectangle
-from matplotlib.ticker import ScalarFormatter
-import os  # ajouté
+from scipy.stats import levene
+import os
 
 # Palette pour stylisation des graphiques
 PALETTE = [
